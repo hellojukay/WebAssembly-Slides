@@ -58,7 +58,7 @@ ASM 是 Javascript 的严格的子集，执行速度快
 - https://github.com/emscripten-core/emscripten
 - https://github.com/emscripten-core/emscripten
 
-<img src="asm.js_benchmark.png" />
+<img src="/asmjs_benchmark.png" />
 
 ---
 
@@ -67,7 +67,7 @@ WebAssembly 本身并不是一种编程语言,是一种高效的字节码标准�
 
 ---
 
-<img src="JVM.png" />
+<img src="/JVM.png" />
 
 ---
 
