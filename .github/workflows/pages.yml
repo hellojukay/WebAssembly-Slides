@@ -6,7 +6,7 @@ on:
       - 'master'
 
 jobs:
-  release:
+  pages:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '14'
           registry-url: https://registry.npmjs.org/
-      - run: yarn add slidev
+      - run: yarn
       - run: yarn build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
