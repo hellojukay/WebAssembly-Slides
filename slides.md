@@ -56,7 +56,6 @@ Read more about [How javascript works?](https://coralogix.com/blog/how-js-works-
 ASM 是 Javascript 的严格的子集，执行速度快
 
 - https://github.com/emscripten-core/emscripten
-- https://github.com/emscripten-core/emscripten
 
 <img src="/asmjs_benchmark.png" />
 
