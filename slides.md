@@ -45,24 +45,27 @@ Read more about [How javascript works?](https://coralogix.com/blog/how-js-works-
 ---
 
 ### Performance
-
 因为 Javascript 的运行机制限制，Javascript 在运行速度上很难又较大的突破了。
+
+--- 
 
 <img src="/node_benchmark.png"/>
 
 ---
 
 # ASM.js
-ASM 是 Javascript 的严格的子集，执行速度快
-
+- ASM 是 Javascript 的严格的子集，执行速度更快
+- ASM.js 有 emscripten 编译器将其他静态语言编译而成
+- https://zh.m.wikipedia.org/zh-hans/Asm.js
 - https://github.com/emscripten-core/emscripten
+
+---
 
 <img src="/asmjs_benchmark.png" />
 
 ---
-
 # WebAssembly是什么
-WebAssembly 本身并不是一种编程语言,是一种高效的字节码标准，可以在现代的网络浏览器中运行 。JAVA 能运行在哪里，取决于 JVM 能运行在哪里，同样的 WebAssembly 虚拟机能在哪里运行，WebAssembly 就能在哪里运行。
+WebAssembly 本身并不是一种编程语言,是一种高效的字节码标准，可以在现代的网络浏览器中运行 。JAVA 能运行在哪里，取决于 JVM 虚拟机能运行在哪里，同样的 WebAssembly 虚拟机能在哪里运行，WebAssembly 就能在哪里运行。
 
 ---
 
@@ -70,7 +73,15 @@ WebAssembly 本身并不是一种编程语言,是一种高效的字节码标准�
 
 ---
 
+# WASI
+WASI 全称是 WebAssembly System Interface。
+
+- javascript 通过 DOM 和 BOM 和浏览器交互, 通过 Node.js 接口访问操作系统接口
+- WebAssembly 通过 WASI 访问操作系统接口，走出了浏览器的局限
+
+
 # 现状
+- 各种编程语言都能编译成 WebAssembly 字节码，C/C++, C#, Rust, GO, Python 等
 - https://www.assemblyscript.org/ (typescript转WebAssembly)
 - https://wasi.dev/ (WebAssembly System Interface)
 - https://wapm.io/ (WebAssembly的包管理中心)
@@ -78,6 +89,11 @@ WebAssembly 本身并不是一种编程语言,是一种高效的字节码标准�
 ---
 layout: center
 class: text-center
+---
+
+# Go 与 WebAssembly
+- https://github.com/hellojukay/WebAssembly-Demo
+
 ---
 
 # Learn More
