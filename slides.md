@@ -64,7 +64,9 @@ Read more about [How javascript works?](https://coralogix.com/blog/how-js-works-
 <img src="/asmjs_benchmark.png" />
 
 ---
+
 # WebAssembly是什么
+
 WebAssembly 本身并不是一种编程语言,是一种高效的字节码标准，可以在现代的网络浏览器中运行 。JAVA 能运行在哪里，取决于 JVM 虚拟机能运行在哪里，同样的 WebAssembly 虚拟机能在哪里运行，WebAssembly 就能在哪里运行。
 
 ---
