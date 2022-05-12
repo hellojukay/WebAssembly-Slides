@@ -79,6 +79,7 @@ WASI 全称是 WebAssembly System Interface。
 - javascript 通过 DOM 和 BOM 和浏览器交互, 通过 Node.js 接口访问操作系统接口
 - WebAssembly 通过 WASI 访问操作系统接口，走出了浏览器的局限
 
+---
 
 # 现状
 - 各种编程语言都能编译成 WebAssembly 字节码，C/C++, C#, Rust, GO, Python 等
